@@ -1,0 +1,36 @@
+node-signal-exit (3.0.3-1) unstable; urgency=medium
+
+  * Team Upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Abraham Raji ]
+  * New upstream version 3.0.3
+
+  [ Xavier Guimard ]
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto test & install
+  * Fix copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 11 Apr 2020 10:35:56 +0200
+
+node-signal-exit (3.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 30 Oct 2017 17:43:25 +0100
+
+node-signal-exit (3.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #841212)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 18 Oct 2016 21:49:47 +0530
