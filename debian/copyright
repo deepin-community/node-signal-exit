@@ -8,7 +8,7 @@ Copyright: 2015 Ben Coe <ben@npmjs.com> and contributors
 License: ISC
 
 Files: debian/*
-Copyright:
+Copyright: 
  2016 Sruthi Chandran <srud@disroot.org>,
  2017 Paolo Greppi <paolo.greppi@libpf.com>
 License: ISC

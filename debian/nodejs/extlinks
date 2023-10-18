@@ -1,0 +1,3 @@
+ts-node		test
+@types/node
+@types/tap	test
