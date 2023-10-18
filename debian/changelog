@@ -1,3 +1,80 @@
+node-signal-exit (4.1.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Drop test timeout (armel)
+
+ -- Yadd <yadd@debian.org>  Sat, 19 Aug 2023 05:48:54 +0400
+
+node-signal-exit (4.1.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Drop v3 compat
+  * Drop v3 compat
+  * Add breaks:
+    + node-execa (<< 6.1.0+dfsg1+~cs16.0.4-9~)
+    + node-foreground-child (<< 3.1.1~)
+    + node-gauge (<< 4.0.4-2~)
+    + node-istanbul (<< 0.4.5+repack10+~cs98.25.59~)
+    + node-lockfile (<< 1.0.4+~1.0.2-2~)
+    + node-loud-rejection (<< 2.2.0-3~)
+    + node-proper-lockfile (<< 4.1.2-4)
+    + node-restore-cursor (<< 4.0.0-3~)
+    + node-tap (<< 16.3.7+ds1+~cs50.9.19-2)
+    + node-write-file-atomic (<< 4.0.2+~4.0.0-2)
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Fri, 18 Aug 2023 07:01:18 +0400
+
+node-signal-exit (4.1.0-3) experimental; urgency=medium
+
+  * Team upload
+  * Fix syntax error in commonjs
+
+ -- Yadd <yadd@debian.org>  Wed, 16 Aug 2023 07:11:42 +0400
+
+node-signal-exit (4.1.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Fix compatibility with version 3
+
+ -- Yadd <yadd@debian.org>  Tue, 15 Aug 2023 20:52:02 +0400
+
+node-signal-exit (4.1.0-1) experimental; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Drop component @types/signal-exit
+  * New upstream version 4.1.0
+  * Build with typescript
+  * Add CJS wrapper to keep old behavior
+  * Enable test
+
+ -- Yadd <yadd@debian.org>  Tue, 15 Aug 2023 12:23:09 +0400
+
+node-signal-exit (3.0.7+~3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 3.0.7+~3.0.1
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Mar 2022 17:23:51 +0200
+
+node-signal-exit (3.0.6+~3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-signal-exit: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop nodejs dependency
+  * Embed typescript declarations
+  * New upstream version 3.0.6+~3.0.1
+
+ -- Yadd <yadd@debian.org>  Wed, 15 Dec 2021 15:02:34 +0100
+
 node-signal-exit (3.0.3-1) unstable; urgency=medium
 
   * Team Upload

@@ -5,4 +5,10 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --with nodejs
+	dh $@
+
+override_dh_auto_build:
+	tsc -p tsconfig.json
+	tsc -p tsconfig-esm.json
+	sh ./scripts/fixup.sh
+	#cp debian/index.cjs dist/cjs/
